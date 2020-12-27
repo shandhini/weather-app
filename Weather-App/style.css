@@ -1,0 +1,186 @@
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+#city-input, #weather-output {
+    max-width: 900px;
+    margin: 0 auto;
+}
+  
+.banner {
+    color:white;    
+    font-size: 400px;
+    font-family: 'Courir New', Courier, monospace;
+}
+body {
+    background-color: #e7d9ea;
+
+}
+ul{
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+   main {
+     background-image: url('snow.jpg');
+     background-repeat: no-repeat;
+     background-size: 2000px 1000px;
+     background-position: center;
+     position: relative;
+     top:250px;
+    }
+
+h1 {
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+#city-input, #weather-output {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+  
+.banner {
+    color:white;    
+    font-size: 350px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    background-color: #e7d9ea;
+
+}
+ul{
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+   main {
+     background-image: url('snow.jpg');
+     background-repeat: no-repeat;
+     background-size: 1200px 1066px;
+     background-position: center;
+     position: relative;
+     top:150px;
+    }
+
+h1 {
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+#city-input, #weather-output {
+    max-width: 400px;
+    margin: 0 auto;
+}
+  
+.banner {
+    color:white;    
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    background-color: #e7d9ea;
+
+}
+ul{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+   main {
+     background-image: url('snow.jpg');
+     background-repeat: no-repeat;
+     background-size: 675px 576px;
+     background-position: center;
+     position: relative;
+     top:100px;
+    }
+
+h1 {
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+    #city-input, #weather-output {
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
+.banner {
+    color:white;    
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    background-color: #e7d9ea;
+
+}
+ul{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+   main {
+     background-image: url('snow.jpg');
+     background-repeat: no-repeat;
+     background-size: 975px 876px;
+     background-position: center;
+     position: relative;
+     top:150px;
+    }
+
+h1 {
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+#city-input, #weather-output {
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
+.banner {
+    color:white;    
+    font-size: 150px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    background-color: #e7d9ea;
+
+}
+ul{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+   main {
+     background-image: url('snow.jpg');
+     background-repeat: no-repeat;
+     background-size: 975px 876px;
+     background-position: center;
+     position: relative;
+     top:150px;
+    }
+
+h1 {
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+}
